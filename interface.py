@@ -56,7 +56,7 @@ def submit():
 
 
 if __name__ == '__main__':
-    app.run()                     
+    app.run(host='0.0.0.0', port = 8080)                     
 # it Allows You to Execute Code When the File Runs as a Script,
 # but Not When It's Imported as a Module.
 
